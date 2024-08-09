@@ -13,7 +13,7 @@ This project is a FastAPI-based service that converts text to speech using a loc
 
 ## Setup and Installation
 
-1. Clone the repository (or download the project files):
+1. Clone the repository:
    ```
    git clone https://github.com/yourusername/fastapi-tts-project.git
    cd fastapi-tts-project
@@ -32,9 +32,9 @@ This project is a FastAPI-based service that converts text to speech using a loc
 
 4. Create a `.env` file in the project root and add the following:
    ```
-   LLM_SERVICE_URL=http://llm-service:8000
+   LLM_SERVICE_URL=http://localhost:8001
    ```
-   Adjust the URL if your LLM service is running on a different host or port.
+   Adjust the URL if your local LLM service is running on a different port.
 
 ## Running the Project Locally
 
